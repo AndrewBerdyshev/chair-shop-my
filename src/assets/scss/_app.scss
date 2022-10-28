@@ -1,0 +1,271 @@
+.app  {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+html body div.app div.slider div.slider__content{
+    font-family: $font;
+    font-style: normal;
+
+    color: $light-color;
+    & h1{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    & >p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        width: 380px;
+    }
+
+    & button{
+        width: 170px;
+        height: 45.3px;
+        font-size: 14px;
+        border-radius: 40px;
+        border: 2px solid $light-color;
+        background-color: $accent-color;
+        
+        p{
+            color: $main-text-color;
+            margin: 0;
+        }
+    }
+}
+
+.special-products{
+    margin: 53px 405px 0 405px;
+
+    >p{
+        font-family: $font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: $title-text-color;
+    }
+
+    .special-products__line {
+        margin-top: 40px;
+        display: flex;
+
+        .special-products__line__item{
+            width: 255px;
+            height: 385.79px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            >img{
+                width: 125px;
+                height: 176.42px;
+            }
+            >p{
+                width: 195px;
+                height: 35.07px;
+                font-family: $font;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                color: $link-text-color;
+                color: $link-text-color;
+            }
+            .price{
+                margin: 0 21.26px;
+                p{
+                    font-family: $font;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 21px;
+                    line-height: 25px;
+                    text-align: center;
+                    letter-spacing: 0.05em;
+                    color: $title-text-color;
+                }
+            }
+            button{
+                width: 130px;
+                height: 37.2px;
+                background-color: $accent-color;
+                border-color: $accent-color;
+
+                p{
+                    font-family: font;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 16px;
+                    text-align: center;
+                    letter-spacing: 0.05em;
+                    color: $main-text-color;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+.visitor-info-line{
+    margin: 100px 405px;
+    display: flex;
+    justify-content: space-between;
+    .with-car{
+        width: 170px;
+    }
+    &__block{
+        width: 540px;
+        height: 212px;
+        background-color: $accent-color;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        img.email{
+            width: 140px;
+        }
+        img.car{
+            width: 188.67px;
+        }
+
+        button{
+            background: $accent-color;
+            border: 2px solid $main-text-color;
+            border-radius: 30px;
+        }
+
+        &__miniblock{
+            height: 142px;
+            width: 263px;
+            margin: 0 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            h2{
+                font-family: &font;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 21px;
+                color: $main-text-color;
+            }
+
+            p{
+                font-family: &font;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: $main-text-color;
+            }
+
+            input{
+                width: 225px;
+                height: 35px;
+                border-radius: 30px;
+
+                
+                font-family: $font;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                padding: 9px 0 9px 16px;
+            }
+        }
+    }
+}
+
+.sponsors{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1110px;
+
+    img{
+        margin: 64.25px;
+    }
+}
+
+footer{
+    margin: 118px 405px 0;
+
+    p{
+        margin: 0;
+        height: 1em;
+    }
+    .footer--row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img{
+            margin: 0 10px;
+        }
+
+        .footer--address{
+            font-family: $font;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: $title-text-color;
+        }
+
+        .footer--call{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p{
+                font-family: $font;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: $title-text-color;
+            }
+            button{
+                margin-left: 40px;
+                align-items: center;
+                background: $main-text-color;
+                border: 2px solid $accent-color;
+                border-radius: 40px;
+                padding: 13px;
+
+                p{
+                    font-family: $font;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: $title-text-color;
+                }
+            }
+        }
+    }
+    .footer--row__second{
+        margin-top: 72px;
+        margin-bottom: 31px;
+        p{
+            font-family: $font;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: $copyright-text-color;
+        }
+    }
+}
